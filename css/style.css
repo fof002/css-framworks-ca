@@ -1,13 +1,9 @@
-h1 {
-  color: red !important;
-}
-
-body {
+.first-item {
   background: green;
 }
 
-.first-item {
-  background: red;
+.second-item {
+  background: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
