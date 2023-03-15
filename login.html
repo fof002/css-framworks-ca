@@ -52,7 +52,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
-            <form action="/profile.html" class="login-form">
+            <form action="/profile.html" class="login-form" id="login-form">
               <div class="mb-2 d-flex flex-column">
                 <label for="userName">Username (email adress)</label>
                 <input
@@ -66,6 +66,7 @@
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" />
               </div>
+              <div class="errorContainer" id="error"></div>
               <button type="submit" class="btn btn-primary">Log in</button>
               <p class="mt-3">
                 Dont have a user? create one here:
@@ -115,5 +116,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
